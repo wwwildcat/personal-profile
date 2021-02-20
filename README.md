@@ -6,14 +6,15 @@ This is an example personal profile app with:
 - proxy middleware for `POST` request
 
 Created with [create-next-app](https://nextjs.org/docs/api-reference/create-next-app).
+Deployed on [Vercel](https://vercel.com/docs).
+
+URL: [http://personal-profile.wwwildcat.vercel.app/](http://personal-profile.wwwildcat.vercel.app/)
 
 ### Technologies
 
 - [Next.js](https://github.com/vercel/next.js/)
 - [Material-UI](https://github.com/mui-org/material-ui)
 - [TypeScript](https://github.com/Microsoft/TypeScript)
-- [Express](https://github.com/expressjs/express)
-- [body-parser](https://github.com/expressjs/body-parser)
 - [http-proxy-middleware](https://github.com/chimurai/http-proxy-middleware)
 
 ### Development

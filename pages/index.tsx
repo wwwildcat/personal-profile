@@ -93,7 +93,7 @@ const Home = () => {
     }
 
     const sendRequest = async () => {
-        let response = await fetch('http://localhost:3000/api/posts', {
+        let response = await fetch(String(new URL('/api/posts', window.location.href)), {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
